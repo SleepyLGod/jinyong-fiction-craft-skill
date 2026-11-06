@@ -1,0 +1,552 @@
+{
+  "source_id": "xajh",
+  "author": "金庸",
+  "work_title": "笑傲江湖",
+  "collection_title": "金庸作品全集（新修版）（全36册）",
+  "edition_label": "新修版；电子书元数据标记，未作版本逐字校勘",
+  "collection_opf_publisher": "浙江出版集团数字传媒有限公司",
+  "collection_opf_date": "2017-09-05",
+  "metadata_caution": "电子书元数据不等于纸本出版社、ISBN、版次或印次；本次未确认这些纸本信息。",
+  "print_publisher": null,
+  "isbn": null,
+  "print_edition": null,
+  "collection_opf_sha256": "1b4c48f80773541270cd85befc59bd7c99900dc614cccfa2c3fa0cc6a95672fb",
+  "collection_ncx_sha256": "2e6898b2c053688b932947f7fa330f758b914e6d735776df1c01b0bde6f7856a",
+  "selected_epub_sha256": "c30d5296a8013bed008e8bfc3fe58a874971fcf6d2e147ca759b60630b33f7fa",
+  "selected_epub_note": "从本地目录EPUB选取对应spine与依赖，原XHTML未改写；所选包不是另一个出版版本。",
+  "extraction_tool": "book-to-skill/scripts/extract.py --mode text --install-missing no；stdlib fallback",
+  "paragraph_reader_characters": 994625,
+  "reading": {
+    "completed_at": "2026-11-06",
+    "novel_chapters": 40,
+    "text_packets": 101,
+    "all_text_packets_complete": true,
+    "toc_preface_afterword_and_gallery_captions_read": true,
+    "appendices_read": false,
+    "image_content_analyzed": false,
+    "images_in_selected_files": 134,
+    "method": "Terra/medium分包全文阅读；逐包首尾、字节数和SHA核验，并要求阅读者确认完整可见；主代理回查实际采用的段落及前后文。",
+    "local_progress": ".local/two-books-20261105/xajh/source-and-reading.json"
+  },
+  "locator": {
+    "format": "xajh:partNNNN:P0001–P0002",
+    "original_path_template": "OEBPS/Text/partNNNN.xhtml",
+    "reader_path_template": ".local/two-books-20261105/xajh/reader/partNNNN.txt",
+    "rule": "All nonempty body text; flush at p/h1/h2/h3/h4/li/body end; decode entities; trim paragraph edges; P starts at 1 per source file.",
+    "not_paper_pages": true,
+    "external_relocation": "无本地原文时按作品、回数和事件顺序查找；其他版本段号不保证相同。"
+  },
+  "source_anomalies": [
+    {
+      "loc": "xajh:part0477:P0028",
+      "observation": "原XHTML在令狐冲想到老不死姑娘处结束该段，句子未完，随后直接进入第二个大变。不是阅读器截断；未补字。",
+      "scope": "未用这个未完念头支持新增分析；不推定其他版本同样缺文。"
+    }
+  ],
+  "coverage": [
+    {
+      "part": "part0452",
+      "href": "Text/part0452.xhtml",
+      "title": "金庸作品集：笑傲江湖（新修版）（全4册）",
+      "xhtml_sha256": "311fdbe80d63a24f18b275dd833dca817dab242e34535c521045358289cb1358",
+      "paragraphs": 0,
+      "characters": 0,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0453",
+      "href": "Text/part0453.xhtml",
+      "title": "总目录",
+      "xhtml_sha256": "b0cb4348aec637d98c4fbebfa539fe03c52f95162046b4b9392a64b492329e23",
+      "paragraphs": 5,
+      "characters": 39,
+      "images_not_analyzed": 0
+    },
+    {
+      "part": "part0454",
+      "href": "Text/part0454.xhtml",
+      "title": "笑傲江湖（第一卷）",
+      "xhtml_sha256": "ba9d66e70ec65d206ce49e657a5d461c722f21474ec08cf1cabc06f3c519d9df",
+      "paragraphs": 0,
+      "characters": 0,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0455",
+      "href": "Text/part0455.xhtml",
+      "title": "目录",
+      "xhtml_sha256": "e528ed0939a09bb506b31ac79ad4bd3d8fff5c3a8eec6dba401788a155004bcb",
+      "paragraphs": 13,
+      "characters": 72,
+      "images_not_analyzed": 0
+    },
+    {
+      "part": "part0456",
+      "href": "Text/part0456.xhtml",
+      "title": "图辑",
+      "xhtml_sha256": "79e2f84e41e1cb615fad36025c3d4b7de2b90401886c9c1120eaf86ca3896e93",
+      "paragraphs": 18,
+      "characters": 833,
+      "images_not_analyzed": 21
+    },
+    {
+      "part": "part0457",
+      "href": "Text/part0457.xhtml",
+      "title": "“金庸作品”新序",
+      "xhtml_sha256": "6b1a1bbfa433f7345d73e7129538435bc28a59db1fb83731d2d46a79b23b1aed",
+      "paragraphs": 26,
+      "characters": 5159,
+      "images_not_analyzed": 0
+    },
+    {
+      "part": "part0458",
+      "href": "Text/part0458.xhtml",
+      "title": "第一回",
+      "xhtml_sha256": "ecc92f032ef7e02918ec0c6e90ed737cfe5edf70f4aa1ee82369715ced8401b2",
+      "paragraphs": 215,
+      "characters": 27176,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0459",
+      "href": "Text/part0459.xhtml",
+      "title": "第二回",
+      "xhtml_sha256": "6a2646b1a9ab6434fd5f4ab4a7bd3c685d67c7014aabaa75a6faa48a91277638",
+      "paragraphs": 177,
+      "characters": 23728,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0460",
+      "href": "Text/part0460.xhtml",
+      "title": "第三回",
+      "xhtml_sha256": "4dcd8beba3a8de59315b7235ef863dcf18df36c097d20a32799b4e53f9edebfe",
+      "paragraphs": 222,
+      "characters": 23961,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0461",
+      "href": "Text/part0461.xhtml",
+      "title": "第四回",
+      "xhtml_sha256": "0021249c4ee86d177f4d2029b2858f6b5858a5df013a2646d6dc5cbef896e281",
+      "paragraphs": 192,
+      "characters": 23422,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0462",
+      "href": "Text/part0462.xhtml",
+      "title": "第五回",
+      "xhtml_sha256": "ecec48aec15e8bb63e92d573a194ddc3a128a580338aab24701891a8f1bae67a",
+      "paragraphs": 277,
+      "characters": 33258,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0463",
+      "href": "Text/part0463.xhtml",
+      "title": "第六回",
+      "xhtml_sha256": "4c45a9444fc89cdf8e05e2dad934ff4276317f5037df3a62821077cf627ec6d6",
+      "paragraphs": 157,
+      "characters": 17410,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0464",
+      "href": "Text/part0464.xhtml",
+      "title": "第七回",
+      "xhtml_sha256": "26e0a856c063ec0681d39ee66a2504b46fda8e32b9181978151c33cb7c880e63",
+      "paragraphs": 234,
+      "characters": 26251,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0465",
+      "href": "Text/part0465.xhtml",
+      "title": "第八回",
+      "xhtml_sha256": "42ca827d2ffb0c284e49b8d8e5d0d96f3f6627fd557cf787ae3693902a2d5ee0",
+      "paragraphs": 204,
+      "characters": 27445,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0466",
+      "href": "Text/part0466.xhtml",
+      "title": "第九回",
+      "xhtml_sha256": "2dd085777493634712cae66653490cf688f63c0aec8843c0b07676a533968e28",
+      "paragraphs": 180,
+      "characters": 23582,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0467",
+      "href": "Text/part0467.xhtml",
+      "title": "第十回",
+      "xhtml_sha256": "83814c617f4a1ebc1a8833034534907cce2faa21f9724fbe7757b565fc8da9c5",
+      "paragraphs": 179,
+      "characters": 23737,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0468",
+      "href": "Text/part0468.xhtml",
+      "title": "笑傲江湖（第二卷）",
+      "xhtml_sha256": "0d31b0601fbb7675b09f6b608c13b58a9cc63c16c144775bf0debecafdb630b1",
+      "paragraphs": 0,
+      "characters": 0,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0469",
+      "href": "Text/part0469.xhtml",
+      "title": "目录",
+      "xhtml_sha256": "e06abbd96d04be274be296d37f120ffb0ae350a75198d12ed23b806da56bd9da",
+      "paragraphs": 12,
+      "characters": 74,
+      "images_not_analyzed": 0
+    },
+    {
+      "part": "part0470",
+      "href": "Text/part0470.xhtml",
+      "title": "图辑",
+      "xhtml_sha256": "95473d884cf61c873de4839fb906dbaea75a0740f46a3ae924fb93a4ce2a65de",
+      "paragraphs": 20,
+      "characters": 1074,
+      "images_not_analyzed": 21
+    },
+    {
+      "part": "part0471",
+      "href": "Text/part0471.xhtml",
+      "title": "第十一回",
+      "xhtml_sha256": "b47d0a40857a186e703a02399ffbf64322fe96fe2a0ea758798477e811b679b7",
+      "paragraphs": 202,
+      "characters": 24731,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0472",
+      "href": "Text/part0472.xhtml",
+      "title": "第十二回",
+      "xhtml_sha256": "d6648b30ea832a97ff3a60b87af8dce81d78cd41a92370de2bc2183de633b0da",
+      "paragraphs": 285,
+      "characters": 31298,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0473",
+      "href": "Text/part0473.xhtml",
+      "title": "第十三回",
+      "xhtml_sha256": "d6be81c419cb10265adf60c568d00763957d47160b4bee6e091478a4d3d4ca0d",
+      "paragraphs": 277,
+      "characters": 28797,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0474",
+      "href": "Text/part0474.xhtml",
+      "title": "第十四回",
+      "xhtml_sha256": "5dac3befd7d281b1dfbd1dd3743d781cf581a1c46cd40c542b737d3057f1fc79",
+      "paragraphs": 209,
+      "characters": 20384,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0475",
+      "href": "Text/part0475.xhtml",
+      "title": "第十五回",
+      "xhtml_sha256": "b0372fd33aba3fbb031d37cbfb674c95fe7205275ff9ca747e93fa68a9416482",
+      "paragraphs": 170,
+      "characters": 18734,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0476",
+      "href": "Text/part0476.xhtml",
+      "title": "第十六回",
+      "xhtml_sha256": "94227088a256e4d3a2fd13fef1db753e2dfaa9f3604708cf017f8f27d99e4699",
+      "paragraphs": 184,
+      "characters": 18439,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0477",
+      "href": "Text/part0477.xhtml",
+      "title": "第十七回",
+      "xhtml_sha256": "2d10455ad4a499879f159e2b950e3167191ea902524ed1994b1e9dd9122d9fbd",
+      "paragraphs": 322,
+      "characters": 36198,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0478",
+      "href": "Text/part0478.xhtml",
+      "title": "第十八回",
+      "xhtml_sha256": "8c1ef06b91ffc8864a72d15e15ade6a02290b633526d84e48b7e14d77f5704a5",
+      "paragraphs": 209,
+      "characters": 23383,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0479",
+      "href": "Text/part0479.xhtml",
+      "title": "第十九回",
+      "xhtml_sha256": "a0eb78f85854a6724676f0d6cf46c486a27f8b1dd2539dd4c82e2da84c35104c",
+      "paragraphs": 215,
+      "characters": 24594,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0480",
+      "href": "Text/part0480.xhtml",
+      "title": "第二十回",
+      "xhtml_sha256": "25f12d76a8a7a39a46ae242c4d139517bb1bea107402d6aee6b5cdc830904975",
+      "paragraphs": 191,
+      "characters": 21635,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0481",
+      "href": "Text/part0481.xhtml",
+      "title": "笑傲江湖（第三卷）",
+      "xhtml_sha256": "916becc274ac998e4e0af60d3b182d7fa554a330acf0eca9522d437642f426e2",
+      "paragraphs": 0,
+      "characters": 0,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0482",
+      "href": "Text/part0482.xhtml",
+      "title": "目录",
+      "xhtml_sha256": "8f2445e408c3eb684bd433b9bbb1d93f0c3055025f1ed4347d754020cdebe511",
+      "paragraphs": 12,
+      "characters": 83,
+      "images_not_analyzed": 0
+    },
+    {
+      "part": "part0483",
+      "href": "Text/part0483.xhtml",
+      "title": "图辑",
+      "xhtml_sha256": "83aa6c1fc9acb7cc54b7154bdfcab51a332040824a646d841166ee3f7e7bf5dd",
+      "paragraphs": 24,
+      "characters": 1020,
+      "images_not_analyzed": 23
+    },
+    {
+      "part": "part0484",
+      "href": "Text/part0484.xhtml",
+      "title": "第二十一回",
+      "xhtml_sha256": "7653370b2136833e5ef3320e4c9403f731d3aeb9a39bb91e66daebc2873324e1",
+      "paragraphs": 145,
+      "characters": 17506,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0485",
+      "href": "Text/part0485.xhtml",
+      "title": "第二十二回",
+      "xhtml_sha256": "9c38198d3a84ac4b71ef90725e774a3e06188c61ce4d46bf0e839ee86f58b8bd",
+      "paragraphs": 167,
+      "characters": 19546,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0486",
+      "href": "Text/part0486.xhtml",
+      "title": "第二十三回",
+      "xhtml_sha256": "e4f9b104b65bf3bff8c8f387502a964aa3744d768792f50e4a8785a7a94d7f2c",
+      "paragraphs": 263,
+      "characters": 30926,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0487",
+      "href": "Text/part0487.xhtml",
+      "title": "第二十四回",
+      "xhtml_sha256": "328132ecacf5e4ef3ab0199704ee306b5a606cc8791affbab2bf33424e56a6a9",
+      "paragraphs": 275,
+      "characters": 28206,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0488",
+      "href": "Text/part0488.xhtml",
+      "title": "第二十五回",
+      "xhtml_sha256": "3a607f35963f88238503073860bda43e04567bf445c0cf1d75c2034207c63813",
+      "paragraphs": 173,
+      "characters": 19934,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0489",
+      "href": "Text/part0489.xhtml",
+      "title": "第二十六回",
+      "xhtml_sha256": "dd3614874f454bb97e41e8d31aa51742a53032b81bd16d5042693ccbc3e7dc30",
+      "paragraphs": 304,
+      "characters": 30541,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0490",
+      "href": "Text/part0490.xhtml",
+      "title": "第二十七回",
+      "xhtml_sha256": "09647c8521610a466533d3e6fb0f9931cbb3a6f2485dc3d8fe2ccb3b5314a6db",
+      "paragraphs": 270,
+      "characters": 27172,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0491",
+      "href": "Text/part0491.xhtml",
+      "title": "第二十八回",
+      "xhtml_sha256": "115970552dc457d77123e37b6eb605fef83b82c66995a0f2b71fc064effe6877",
+      "paragraphs": 146,
+      "characters": 15942,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0492",
+      "href": "Text/part0492.xhtml",
+      "title": "第二十九回",
+      "xhtml_sha256": "97a35a50845100977a75f945edf87f53d3f64de0c3e15860c16b8d58b5df3f53",
+      "paragraphs": 223,
+      "characters": 22713,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0493",
+      "href": "Text/part0493.xhtml",
+      "title": "第三十回",
+      "xhtml_sha256": "539116b83eb867f68c0dd930211a1c7626b5d9edfbe73139c3a0dae2f5f2da35",
+      "paragraphs": 246,
+      "characters": 25669,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0494",
+      "href": "Text/part0494.xhtml",
+      "title": "笑傲江湖（第四卷）",
+      "xhtml_sha256": "8eb5618be2aaf26889925a2ba67134cfa63a4371429ac01e0aa217fd272ac310",
+      "paragraphs": 0,
+      "characters": 0,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0495",
+      "href": "Text/part0495.xhtml",
+      "title": "目录",
+      "xhtml_sha256": "277d36e9c58dc76ff6435435e44a7389727dc074bc381d0e2c64f9a2d981f3e7",
+      "paragraphs": 13,
+      "characters": 85,
+      "images_not_analyzed": 0
+    },
+    {
+      "part": "part0496",
+      "href": "Text/part0496.xhtml",
+      "title": "图辑",
+      "xhtml_sha256": "876163c99014607b38f572f1c6d26d7ea1e45cceaf03c2870098ef82edc4ce0c",
+      "paragraphs": 20,
+      "characters": 1110,
+      "images_not_analyzed": 24
+    },
+    {
+      "part": "part0497",
+      "href": "Text/part0497.xhtml",
+      "title": "第三十一回",
+      "xhtml_sha256": "27ca18c7bb9f6abf3a683754eba84883242fd9c5d166a7c621cf4fcedc46fdb8",
+      "paragraphs": 214,
+      "characters": 19312,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0498",
+      "href": "Text/part0498.xhtml",
+      "title": "第三十二回",
+      "xhtml_sha256": "c08e22f093a9cdb132c119472232cefd3afb5dbbc29d0c0a6274d630958fd40e",
+      "paragraphs": 238,
+      "characters": 26850,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0499",
+      "href": "Text/part0499.xhtml",
+      "title": "第三十三回",
+      "xhtml_sha256": "349ef1c4860f882559774c492b339cf9e55adc0fc8e714b30ea2ec9eed20bfe8",
+      "paragraphs": 176,
+      "characters": 23666,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0500",
+      "href": "Text/part0500.xhtml",
+      "title": "第三十四回",
+      "xhtml_sha256": "b65ba2fc3d04e9a63b8c82525c40e31353bdb7ae70ed22abe1c59551c09b3e67",
+      "paragraphs": 130,
+      "characters": 14461,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0501",
+      "href": "Text/part0501.xhtml",
+      "title": "第三十五回",
+      "xhtml_sha256": "d70af9101d9fb7d8e5e9dda4c49e9fff654294707b51389f68838c3e8d629e98",
+      "paragraphs": 309,
+      "characters": 37731,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0502",
+      "href": "Text/part0502.xhtml",
+      "title": "第三十六回",
+      "xhtml_sha256": "11acccf065731cf01c66541552e21e5e7f64c4808060206577aed4be2745bd31",
+      "paragraphs": 232,
+      "characters": 25141,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0503",
+      "href": "Text/part0503.xhtml",
+      "title": "第三十七回",
+      "xhtml_sha256": "38c06c39cc6e00659d05c5976edb9a05876e18220a7c17ae56b67362811221a9",
+      "paragraphs": 181,
+      "characters": 26072,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0504",
+      "href": "Text/part0504.xhtml",
+      "title": "第三十八回",
+      "xhtml_sha256": "257d1bcf6e70d659b88e4ef44f2d87d23a4d0d295e3b4772f015a84489e4d6f3",
+      "paragraphs": 235,
+      "characters": 28574,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0505",
+      "href": "Text/part0505.xhtml",
+      "title": "第三十九回",
+      "xhtml_sha256": "7bd31c4f602e8be5849afc3997347a32ed6e1e489bb94b56337ca024f43300d9",
+      "paragraphs": 195,
+      "characters": 21563,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0506",
+      "href": "Text/part0506.xhtml",
+      "title": "第四十回",
+      "xhtml_sha256": "8c3ff501a4a0b84583e3fed0fdf4ff3abd0313c9dba88b28a320e454a6692d09",
+      "paragraphs": 196,
+      "characters": 22480,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0507",
+      "href": "Text/part0507.xhtml",
+      "title": "后记",
+      "xhtml_sha256": "4f647ff9468ca437fbea2e2ee50efa4cbc61ee6df31146dc06bb7d247a725aa5",
+      "paragraphs": 19,
+      "characters": 2908,
+      "images_not_analyzed": 0
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.local/
+.DS_Store
+__pycache__/
+*.pyc
+*.epub
+*.mobi
+*.azw
+*.azw3
+*.pdf
+/data/

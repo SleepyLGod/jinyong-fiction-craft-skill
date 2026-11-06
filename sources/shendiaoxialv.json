@@ -1,0 +1,557 @@
+{
+  "author": "金庸",
+  "collection_title": "金庸作品全集（新修版）（全36册）",
+  "edition_label": "新修版；电子书元数据标记，未作版本逐字校勘",
+  "collection_opf_publisher": "浙江出版集团数字传媒有限公司",
+  "collection_opf_date": "2017-09-05",
+  "metadata_caution": "电子书元数据不等于纸本出版社、ISBN、版次或印次；本次未确认这些纸本信息。",
+  "print_publisher": null,
+  "isbn": null,
+  "print_edition": null,
+  "extraction_tool": "book-to-skill/scripts/extract.py --mode text --install-missing no；stdlib fallback",
+  "source_id": "sdxl",
+  "work_title": "神雕侠侣",
+  "collection_opf_sha256": "1b4c48f80773541270cd85befc59bd7c99900dc614cccfa2c3fa0cc6a95672fb",
+  "collection_ncx_sha256": "2e6898b2c053688b932947f7fa330f758b914e6d735776df1c01b0bde6f7856a",
+  "selected_epub_sha256": "c60d5fdcd9b72cf831738870debb5299f89fce82bc67a3401bc665e94322292c",
+  "selected_epub_note": "Derived package for extraction; original selected XHTML and dependencies unchanged; OPF/spine/navigation filtered. Not a separately published edition.",
+  "paragraph_reader_characters": 1004165,
+  "reading": {
+    "completed_at": "2026-11-06",
+    "novel_chapters": 40,
+    "text_packets": 98,
+    "all_text_packets_complete": true,
+    "coverage_scope": "全部可提取文字；不包含图片中的正文。",
+    "toc_preface_afterword_and_gallery_captions_read": true,
+    "appendices_read": true,
+    "appendix_scope": "所选附录的可提取文字已读，图片未分析。",
+    "image_content_analyzed": false,
+    "images_in_selected_files": 113,
+    "method": "全新Terra/medium子代理分包全文阅读；核验实际模型、用量、每包完整边界及SHA。主代理回查采用段落和前后文，跨章例核对完整连接。",
+    "local_progress": ".local/three-books-20261106/sdxl/source-and-reading.json"
+  },
+  "locator": {
+    "format": "sdxl:partNNNN:P0001–P0002",
+    "original_path_template": "OEBPS/Text/partNNNN.xhtml",
+    "reader_path_template": ".local/three-books-20261106/sdxl/reader/partNNNN.txt",
+    "rule": "All nonempty body text; flush at p/h1/h2/h3/h4/li/body end; decode entities; trim paragraph edges; P starts at 1 per source file.",
+    "not_paper_pages": true,
+    "external_relocation": "无本地原文时按作品、回数和事件顺序查找；其他版本段号不保证相同。"
+  },
+  "source_anomalies": [],
+  "coverage": [
+    {
+      "part": "part0136",
+      "href": "Text/part0136.xhtml",
+      "title": "金庸作品集：神雕侠侣（新修版）（全4册）",
+      "xhtml_sha256": "7836a78e32626f6ad486e6d8cc203189c72e5a0d4dd96fcb22697387af628a9e",
+      "paragraphs": 0,
+      "characters": 0,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0137",
+      "href": "Text/part0137.xhtml",
+      "title": "总目录",
+      "xhtml_sha256": "21f4d7f6fe395dc04a02c5f138d440a490385d9766b4293ce0040141cb0bf2b7",
+      "paragraphs": 5,
+      "characters": 39,
+      "images_not_analyzed": 0
+    },
+    {
+      "part": "part0138",
+      "href": "Text/part0138.xhtml",
+      "title": "神雕侠侣（第一卷）",
+      "xhtml_sha256": "bbc44df4afcfe0c9cbd4e15caa4e27c0919f6249028d85b30bbd96ebcdb080ef",
+      "paragraphs": 0,
+      "characters": 0,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0139",
+      "href": "Text/part0139.xhtml",
+      "title": "目录",
+      "xhtml_sha256": "634ced4d0aa0b696a0fc87430b4c8fbb099d089f68b9cdb0871b1c59443caf0e",
+      "paragraphs": 13,
+      "characters": 92,
+      "images_not_analyzed": 0
+    },
+    {
+      "part": "part0140",
+      "href": "Text/part0140.xhtml",
+      "title": "图辑",
+      "xhtml_sha256": "a9ecfabecbbd4e4f91d492d8b1b474a6c88558deed564978d3c6399187f2d8b0",
+      "paragraphs": 18,
+      "characters": 949,
+      "images_not_analyzed": 17
+    },
+    {
+      "part": "part0141",
+      "href": "Text/part0141.xhtml",
+      "title": "“金庸作品”新序",
+      "xhtml_sha256": "6e72a76fe29ea961058d000a00cf5a2020302421f343ede0b8b1eed7fa530358",
+      "paragraphs": 26,
+      "characters": 5159,
+      "images_not_analyzed": 0
+    },
+    {
+      "part": "part0142",
+      "href": "Text/part0142.xhtml",
+      "title": "第一回",
+      "xhtml_sha256": "7dd681f50058e1c7490d96f0ad52cdf15353f1cea995bb6a96c6b185506ade6f",
+      "paragraphs": 129,
+      "characters": 18393,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0143",
+      "href": "Text/part0143.xhtml",
+      "title": "第二回",
+      "xhtml_sha256": "1d54cfe02ac6dd6f0e733daafa19b04d5f2cc543ddb7e900a6a267830297c3ff",
+      "paragraphs": 160,
+      "characters": 24870,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0144",
+      "href": "Text/part0144.xhtml",
+      "title": "第三回",
+      "xhtml_sha256": "d78d8d76dd306c4f580dabb04efa1de8b849b229decf7c3fcb0bd35235f98976",
+      "paragraphs": 171,
+      "characters": 23835,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0145",
+      "href": "Text/part0145.xhtml",
+      "title": "第四回",
+      "xhtml_sha256": "40a886203841731c2a4559e0e8d189e181a7c8e5ca48ee0f796ea3359bb15a7f",
+      "paragraphs": 163,
+      "characters": 25228,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0146",
+      "href": "Text/part0146.xhtml",
+      "title": "第五回",
+      "xhtml_sha256": "9a7187b1c0abb98ae7c028884a939c94c6d6916f04b615fb36a7ad2ac2db4267",
+      "paragraphs": 157,
+      "characters": 24147,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0147",
+      "href": "Text/part0147.xhtml",
+      "title": "第六回",
+      "xhtml_sha256": "f3ad9a2bada07482ac00924f0aa38d3c3fb13b01f5dbaa05323277aab804dc69",
+      "paragraphs": 204,
+      "characters": 33133,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0148",
+      "href": "Text/part0148.xhtml",
+      "title": "第七回",
+      "xhtml_sha256": "642b0077864f75415aafbf2a871f861df657058df127334443f7278ae12a076b",
+      "paragraphs": 158,
+      "characters": 26649,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0149",
+      "href": "Text/part0149.xhtml",
+      "title": "第八回",
+      "xhtml_sha256": "608b587febd2adfda7991413bc933b4e9b812cb82b057b1f68aac18c66d8ef9b",
+      "paragraphs": 116,
+      "characters": 19325,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0150",
+      "href": "Text/part0150.xhtml",
+      "title": "第九回",
+      "xhtml_sha256": "cfdee37bc9345ddd92c48b0ab4b201f612b58160f5f33c67167623c06d6eeb50",
+      "paragraphs": 121,
+      "characters": 18983,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0151",
+      "href": "Text/part0151.xhtml",
+      "title": "第十回",
+      "xhtml_sha256": "4a106477b0f4682f8ffd20886fb02523bf2f933e17fa2c525a34ea8132b661cf",
+      "paragraphs": 174,
+      "characters": 26632,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0152",
+      "href": "Text/part0152.xhtml",
+      "title": "神雕侠侣（第二卷）",
+      "xhtml_sha256": "098e5b545994eb672643013e0e0d28056ddd65d7410f4eb7dcc1ccd7bf017790",
+      "paragraphs": 0,
+      "characters": 0,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0153",
+      "href": "Text/part0153.xhtml",
+      "title": "目录",
+      "xhtml_sha256": "06486a19d1ae99279374cb7c07fe52fe5948bccdb8cd4c4efd584806f24d05a9",
+      "paragraphs": 12,
+      "characters": 94,
+      "images_not_analyzed": 0
+    },
+    {
+      "part": "part0154",
+      "href": "Text/part0154.xhtml",
+      "title": "图辑",
+      "xhtml_sha256": "ebc55d0236cf196eb784ff9e34f8c87bd7c8db2bb03062284c585ec04865ec89",
+      "paragraphs": 17,
+      "characters": 1189,
+      "images_not_analyzed": 17
+    },
+    {
+      "part": "part0155",
+      "href": "Text/part0155.xhtml",
+      "title": "第十一回",
+      "xhtml_sha256": "e7d151177773a24219e0f09720e7ecca02a8b5765553429ce42ef2011336c816",
+      "paragraphs": 166,
+      "characters": 22752,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0156",
+      "href": "Text/part0156.xhtml",
+      "title": "第十二回",
+      "xhtml_sha256": "25ecb561727dfd181d80f2111ae864270f44b20679111c911219607a3ca60a9a",
+      "paragraphs": 171,
+      "characters": 24308,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0157",
+      "href": "Text/part0157.xhtml",
+      "title": "第十三回",
+      "xhtml_sha256": "776a8789d7c77948cc4c92844baf1bda3cb1c0992be7f30ac18afe359147ee74",
+      "paragraphs": 198,
+      "characters": 29033,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0158",
+      "href": "Text/part0158.xhtml",
+      "title": "第十四回",
+      "xhtml_sha256": "a8061cf0713109151bb8e705219d5f71c5148528825814d8fd7451e6bf7ec0ac",
+      "paragraphs": 175,
+      "characters": 27833,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0159",
+      "href": "Text/part0159.xhtml",
+      "title": "第十五回",
+      "xhtml_sha256": "6cffe4a54653d950d3ba560df2d7f52f834688c80f08abaabe35945b0218522d",
+      "paragraphs": 190,
+      "characters": 26084,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0160",
+      "href": "Text/part0160.xhtml",
+      "title": "第十六回",
+      "xhtml_sha256": "fe8d194127e1276013f9a401e89a78fea3f7957da68240c4d6749d0764aa1c03",
+      "paragraphs": 168,
+      "characters": 24309,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0161",
+      "href": "Text/part0161.xhtml",
+      "title": "第十七回",
+      "xhtml_sha256": "0f66d1e45b856b0d42282b7fb10e3ac2647c3d3f6709a4b237b5908df392ae6c",
+      "paragraphs": 165,
+      "characters": 23590,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0162",
+      "href": "Text/part0162.xhtml",
+      "title": "第十八回",
+      "xhtml_sha256": "b641947ad3c97f56e15b747b170f34c79e0f07604882ff307149f833f37cc789",
+      "paragraphs": 184,
+      "characters": 26104,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0163",
+      "href": "Text/part0163.xhtml",
+      "title": "第十九回",
+      "xhtml_sha256": "b014289195cf6d2a43f68998aa7d45c939bef380e54c13a09da32c468910c04a",
+      "paragraphs": 194,
+      "characters": 26653,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0164",
+      "href": "Text/part0164.xhtml",
+      "title": "第二十回",
+      "xhtml_sha256": "865574b967d5a242bb427c0df1220be5fa4912958e0416526cc96bbf39972e77",
+      "paragraphs": 167,
+      "characters": 22804,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0165",
+      "href": "Text/part0165.xhtml",
+      "title": "神雕侠侣（第三卷）",
+      "xhtml_sha256": "e52bf27060310d1727678a27511a84f77c5692f3a743ef8067a693a61031c15e",
+      "paragraphs": 0,
+      "characters": 0,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0166",
+      "href": "Text/part0166.xhtml",
+      "title": "目录",
+      "xhtml_sha256": "9f037486f8d036dc71b72d53722612da4fe31a3b82ad4b633f62e7076f438c55",
+      "paragraphs": 12,
+      "characters": 103,
+      "images_not_analyzed": 0
+    },
+    {
+      "part": "part0167",
+      "href": "Text/part0167.xhtml",
+      "title": "图辑",
+      "xhtml_sha256": "11cfa5acc38c9d56b3a26b727f1ef049821a327ee1f2f3f3d6d9299d98ff8981",
+      "paragraphs": 17,
+      "characters": 859,
+      "images_not_analyzed": 16
+    },
+    {
+      "part": "part0168",
+      "href": "Text/part0168.xhtml",
+      "title": "第二十一回",
+      "xhtml_sha256": "ab1b67db4a660fb0352938adda5dc8924d5654716f4929016cdb5650da0f5da8",
+      "paragraphs": 166,
+      "characters": 22644,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0169",
+      "href": "Text/part0169.xhtml",
+      "title": "第二十二回",
+      "xhtml_sha256": "6ff1827cf20593a3a2b67868e6b447f1f3edbd929420165df8f6a2ac9cdb9aa4",
+      "paragraphs": 202,
+      "characters": 29221,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0170",
+      "href": "Text/part0170.xhtml",
+      "title": "第二十三回",
+      "xhtml_sha256": "7a3f4fcfd87078fdb96504d4d25badf771bd1392626641418737f471912a1f1c",
+      "paragraphs": 131,
+      "characters": 18849,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0171",
+      "href": "Text/part0171.xhtml",
+      "title": "第二十四回",
+      "xhtml_sha256": "839ee0bb9eb80023b8d1039d508e5cbac0bc94f1903d226fb3e45a5e06adb7df",
+      "paragraphs": 162,
+      "characters": 24994,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0172",
+      "href": "Text/part0172.xhtml",
+      "title": "第二十五回",
+      "xhtml_sha256": "a9160457b21d9990034b6fff93722eb43e9e715cc39f08b6e0d13ff354439a9c",
+      "paragraphs": 164,
+      "characters": 24632,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0173",
+      "href": "Text/part0173.xhtml",
+      "title": "第二十六回",
+      "xhtml_sha256": "94a8a7f899ba0c1afda6688a84fa5a7ec6f204122f4da4f4a05fdb7669d84fb2",
+      "paragraphs": 192,
+      "characters": 25642,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0174",
+      "href": "Text/part0174.xhtml",
+      "title": "第二十七回",
+      "xhtml_sha256": "f2bc22ccd984ae7eaacf547835e0c7eb9e6cdd1861d9e31697ee6bcc606e7629",
+      "paragraphs": 179,
+      "characters": 25253,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0175",
+      "href": "Text/part0175.xhtml",
+      "title": "第二十八回",
+      "xhtml_sha256": "42f0495ff4aaad2e5b3cac790fc033f4868b2b485727b8764c229bce484afdef",
+      "paragraphs": 153,
+      "characters": 22829,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0176",
+      "href": "Text/part0176.xhtml",
+      "title": "第二十九回",
+      "xhtml_sha256": "95244d9c1c8f51d1ff7bbfa70e897b20f236a17fe73402a613c146c85b85f380",
+      "paragraphs": 173,
+      "characters": 23694,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0177",
+      "href": "Text/part0177.xhtml",
+      "title": "第三十回",
+      "xhtml_sha256": "c27c5eee4c59675bb8f9cc94da2b6d5434775609d1054c1ff6f607040f068bd0",
+      "paragraphs": 170,
+      "characters": 24656,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0178",
+      "href": "Text/part0178.xhtml",
+      "title": "神雕侠侣（第四卷）",
+      "xhtml_sha256": "4c4d19c373330b3c11ac41e3a2434c9e4f808ec6079665bcf825af07f24db629",
+      "paragraphs": 0,
+      "characters": 0,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0179",
+      "href": "Text/part0179.xhtml",
+      "title": "目录",
+      "xhtml_sha256": "49c5342c6ef316eaa80c66ec7465731c9ad09cd4735c4680788be93844a2beb4",
+      "paragraphs": 14,
+      "characters": 116,
+      "images_not_analyzed": 0
+    },
+    {
+      "part": "part0180",
+      "href": "Text/part0180.xhtml",
+      "title": "图辑",
+      "xhtml_sha256": "b83395c63a92dbbce9a4d1ccc0b0aed86adbd3b48653e030ca0d20ed98cc4b86",
+      "paragraphs": 19,
+      "characters": 933,
+      "images_not_analyzed": 18
+    },
+    {
+      "part": "part0181",
+      "href": "Text/part0181.xhtml",
+      "title": "第三十一回",
+      "xhtml_sha256": "83fd960c0e70b89e26aecb064db326926a3c6b32128adfcf62da569ea5206edb",
+      "paragraphs": 141,
+      "characters": 21101,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0182",
+      "href": "Text/part0182.xhtml",
+      "title": "第三十二回",
+      "xhtml_sha256": "11f7b49445338d6be88e8dce44c669fd0596851ac0e6fa9a99a103acd7a03d61",
+      "paragraphs": 218,
+      "characters": 29914,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0183",
+      "href": "Text/part0183.xhtml",
+      "title": "第三十三回",
+      "xhtml_sha256": "748a5dd3ac73ad163cec8c3d992025bbe2806d678ad1f1a2af6bdaa8d5241cba",
+      "paragraphs": 158,
+      "characters": 24808,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0184",
+      "href": "Text/part0184.xhtml",
+      "title": "第三十四回",
+      "xhtml_sha256": "9b5bce89616703b951ff5bf5ce05da01a3c272d2f9336c229819f0e9c4c5b07f",
+      "paragraphs": 256,
+      "characters": 33146,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0185",
+      "href": "Text/part0185.xhtml",
+      "title": "第三十五回",
+      "xhtml_sha256": "8855b9138ed42f9f6cf3682d0bc19fe096cdb6959abe8062f925e04776479e0b",
+      "paragraphs": 159,
+      "characters": 21758,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0186",
+      "href": "Text/part0186.xhtml",
+      "title": "第三十六回",
+      "xhtml_sha256": "95450bdbab18c016c01cfd06006b6ab9b77fef7ec8edc55436d89fa1c32b8fd6",
+      "paragraphs": 141,
+      "characters": 20944,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0187",
+      "href": "Text/part0187.xhtml",
+      "title": "第三十七回",
+      "xhtml_sha256": "4893fa6be8b1988c28e88df4a1ae325732d1c6942bd3e01e4781e858a4334c06",
+      "paragraphs": 175,
+      "characters": 23906,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0188",
+      "href": "Text/part0188.xhtml",
+      "title": "第三十八回",
+      "xhtml_sha256": "61c4f2006debdfea65e190c4dbac636906823cb66e928aed52f66533fb489f93",
+      "paragraphs": 158,
+      "characters": 22768,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0189",
+      "href": "Text/part0189.xhtml",
+      "title": "第三十九回",
+      "xhtml_sha256": "072ebd7c88b9928054cd856b6a39c3da1eb33ad0f9008fce1636cb9a4b32372f",
+      "paragraphs": 224,
+      "characters": 29944,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0190",
+      "href": "Text/part0190.xhtml",
+      "title": "第四十回",
+      "xhtml_sha256": "2e6bb2ecfd5767f9a96d0649bd9aea7ae0fabac471c97e0442e4ea0cfa6cdfcc",
+      "paragraphs": 138,
+      "characters": 18384,
+      "images_not_analyzed": 1
+    },
+    {
+      "part": "part0191",
+      "href": "Text/part0191.xhtml",
+      "title": "附录 易经·阴阳与术数",
+      "xhtml_sha256": "5caa7704a47b5610d02c33b7e036d34f2eb0428f33af20ced7baaeb88d075d35",
+      "paragraphs": 28,
+      "characters": 5976,
+      "images_not_analyzed": 0
+    },
+    {
+      "part": "part0192",
+      "href": "Text/part0192.xhtml",
+      "title": "后记",
+      "xhtml_sha256": "b7fc471f31f73aaa42bbcbbdb23be652c863f309be7c7370909b61d63fb2d735",
+      "paragraphs": 25,
+      "characters": 4904,
+      "images_not_analyzed": 0
+    }
+  ]
+}

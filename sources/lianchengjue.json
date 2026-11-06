@@ -1,0 +1,202 @@
+{
+  "source_id": "lcj",
+  "author": "金庸",
+  "work_title": "连城诀",
+  "collection_title": "金庸作品全集（新修版）（全36册）",
+  "edition_label": "新修版；来自电子书元数据与封面，未作版本逐字校勘",
+  "collection_opf_publisher": "浙江出版集团数字传媒有限公司",
+  "collection_opf_date": "2017-09-05",
+  "metadata_caution": "以上为电子书元数据，不等于纸本出版社、版次、印次或出版日期。",
+  "print_publisher": null,
+  "isbn": null,
+  "print_edition": null,
+  "print_impression": null,
+  "copyright_page_status": "前次文字检索和图片核对未找到可确认的版权页及ISBN；不可据此推定原书无版权页。",
+  "collection_opf_sha256": "1b4c48f80773541270cd85befc59bd7c99900dc614cccfa2c3fa0cc6a95672fb",
+  "collection_ncx_sha256": "2e6898b2c053688b932947f7fa330f758b914e6d735776df1c01b0bde6f7856a",
+  "selected_epub_sha256": "8ab09063412100df33428ce614928ce9c50c0e32afb4fe8a3b70bb8f8b025fa9",
+  "selected_epub_note": "本地从全集选择相关17个spine文件和依赖打包；无原书文字改写。包文件及原XHTML均保存在被忽略的.local/。",
+  "local_selected_epub": ".local/lianchengjue/lianchengjue.epub",
+  "extraction_mode": "text",
+  "extraction_tool": "book-to-skill/scripts/extract.py；--install-missing no；EPUB stdlib fallback",
+  "extracted_characters": 239471,
+  "paragraph_reader_characters": 237087,
+  "reading": {
+    "completed_at": "2026-10-30",
+    "novel_chapters": 12,
+    "shared_preface_read": true,
+    "afterword_read": true,
+    "toc_read": true,
+    "gallery_captions_read": true,
+    "text_chunks_read": 49,
+    "all_text_chunks_complete": true,
+    "images_in_selected_package": 26,
+    "image_content_analyzed_this_pilot": false,
+    "image_note": "题注读取不等于图片内容读取；先前版本图片浏览另算。",
+    "local_progress": ".local/lianchengjue/reading-progress.json",
+    "local_notes": ".local/lianchengjue/reading-notes.md"
+  },
+  "locator": {
+    "format": "lcj:partNNNN:P0001–P0002",
+    "original_path_template": "OEBPS/Text/partNNNN.xhtml",
+    "reader_path_template": ".local/lianchengjue/reader/partNNNN.txt",
+    "rule": "在body内按p、h1、h2、h3、li的结束边界形成非空文本段；解码HTML实体，保留inline文字，仅去段首尾空白；段号包含回目标题，逐文件从P0001递增。",
+    "not_paper_pages": true,
+    "external_relocation": "没有本地逐段文本时，按作品名、回目及细读中的事件顺序查找；不能将其他版本相同段号视为相同原文。"
+  },
+  "coverage": [
+    {
+      "part": "part0296",
+      "title": "卷首图页",
+      "xhtml_sha256": "071e5540fe27f0e18f74bb55fb3804d2d849ebe3d6b8450e8a0ff6a23c0a6ce0",
+      "paragraphs": 0,
+      "characters": 0,
+      "chunks": 0,
+      "read_scope": "image-only title page; text empty"
+    },
+    {
+      "part": "part0297",
+      "title": "目录",
+      "xhtml_sha256": "7c2408dbad2e9f568b47f209ae49283b518baf679e34b86f706d6c08dfd4a21b",
+      "paragraphs": 16,
+      "characters": 112,
+      "chunks": 1,
+      "read_scope": "complete text"
+    },
+    {
+      "part": "part0298",
+      "title": "图辑题注",
+      "xhtml_sha256": "ad3f41d4a05cf50d6fe8b318276265b41e7d6c146b2fa80d74a8f40faaa14458",
+      "paragraphs": 14,
+      "characters": 521,
+      "chunks": 1,
+      "read_scope": "complete text"
+    },
+    {
+      "part": "part0299",
+      "title": "“金庸作品”新序",
+      "xhtml_sha256": "fdbffe3c653f7361c596cb5d5eb5ac274eea36164c2fd3fa0d576b81dd809eff",
+      "paragraphs": 26,
+      "characters": 5159,
+      "chunks": 1,
+      "read_scope": "complete text"
+    },
+    {
+      "part": "part0300",
+      "title": "第一回 乡下人进城",
+      "xhtml_sha256": "19427e27fd759676b95754f594dc14224eb081956543a23c3fe8f173082c504a",
+      "paragraphs": 182,
+      "characters": 18021,
+      "chunks": 4,
+      "read_scope": "complete text"
+    },
+    {
+      "part": "part0301",
+      "title": "第二回 牢狱",
+      "xhtml_sha256": "7eaa920892ad339f9cfe79f9f2f1eebdea5702c06991e52f8682c209c051c777",
+      "paragraphs": 318,
+      "characters": 27399,
+      "chunks": 5,
+      "read_scope": "complete text"
+    },
+    {
+      "part": "part0302",
+      "title": "第三回 人淡如菊",
+      "xhtml_sha256": "3b59db946c4d20c3757a49691cbeaa9bc010e0a6e198e6a1908fafc765ff5390",
+      "paragraphs": 133,
+      "characters": 15207,
+      "chunks": 3,
+      "read_scope": "complete text"
+    },
+    {
+      "part": "part0303",
+      "title": "第四回 空心菜",
+      "xhtml_sha256": "3088da93899750a29f90e93fb0490726b4f7dd501795e4d529d8ac9748dd2ca3",
+      "paragraphs": 131,
+      "characters": 14142,
+      "chunks": 3,
+      "read_scope": "complete text"
+    },
+    {
+      "part": "part0304",
+      "title": "第五回 老鼠汤",
+      "xhtml_sha256": "ad7086ab7aecfa46ec4d85581bbc536fa1fc76647cf038682b29a6c5b4cf60ff",
+      "paragraphs": 199,
+      "characters": 20853,
+      "chunks": 4,
+      "read_scope": "complete text"
+    },
+    {
+      "part": "part0305",
+      "title": "第六回 血刀老祖",
+      "xhtml_sha256": "058a6d68ffb4e87dff9f13e653e4bc74a0087a97691bf54125533e0a690cde8a",
+      "paragraphs": 186,
+      "characters": 21314,
+      "chunks": 4,
+      "read_scope": "complete text"
+    },
+    {
+      "part": "part0306",
+      "title": "第七回 落花流水",
+      "xhtml_sha256": "7f1403df99ae5b2e48177c61098f8cd2d43aaa2aa873955660547f753c677288",
+      "paragraphs": 182,
+      "characters": 21440,
+      "chunks": 4,
+      "read_scope": "complete text"
+    },
+    {
+      "part": "part0307",
+      "title": "第八回 羽衣",
+      "xhtml_sha256": "5a3135adb90936616062980f5bb6a442e8c9326b43c4b98d9645f79e4f9f7cca",
+      "paragraphs": 228,
+      "characters": 24729,
+      "chunks": 5,
+      "read_scope": "complete text"
+    },
+    {
+      "part": "part0308",
+      "title": "第九回 “梁山伯・祝英台”",
+      "xhtml_sha256": "3412713e8ba19f5629bcfb119cba1f1e649a5b78b8a867a53ecb11cc0f5b21fb",
+      "paragraphs": 173,
+      "characters": 19313,
+      "chunks": 4,
+      "read_scope": "complete text"
+    },
+    {
+      "part": "part0309",
+      "title": "第十回 “唐诗选辑”",
+      "xhtml_sha256": "aedc000759a96d06a2bd2dad5fff2cc18161bc7d432f8d05a04890fd74d50680",
+      "paragraphs": 157,
+      "characters": 16399,
+      "chunks": 3,
+      "read_scope": "complete text"
+    },
+    {
+      "part": "part0310",
+      "title": "第十一回 砌墙",
+      "xhtml_sha256": "969e0876697ac0b17e0ffd35760b82c0432771e5e35a118336296394c2a81601",
+      "paragraphs": 200,
+      "characters": 18768,
+      "chunks": 4,
+      "read_scope": "complete text"
+    },
+    {
+      "part": "part0311",
+      "title": "第十二回 连城宝藏",
+      "xhtml_sha256": "6167a53f9a045c4a8bebd59bfc37d524155b8d2e64c99558e4c66df2f003d898",
+      "paragraphs": 137,
+      "characters": 11281,
+      "chunks": 2,
+      "read_scope": "complete text"
+    },
+    {
+      "part": "part0312",
+      "title": "后记",
+      "xhtml_sha256": "d2bcbc5353e080ffb84b3dd77317a33000f68dc6dea3c297da505e80f4f3c6aa",
+      "paragraphs": 22,
+      "characters": 2429,
+      "chunks": 1,
+      "read_scope": "complete text"
+    }
+  ]
+}
